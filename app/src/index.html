@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Corpocracy</title>
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+</head>
+<body class="black">
+<main>
+  <div id="error-message" class="valign-wrapper" style="visibility: hidden; position:absolute; left:0; right:0; top:0; bottom:0; width:100%; height:100%">
+    <div class="container no-pad width-lock">
+      <div class="section no-pad white-text center-align">
+        <div id="overview" class="row" style="font-family: 'Roboto Mono', monospace; text-transform: uppercase">
+          <h2 class="title-head"><strong>ERROR</strong></h2>
+          <div class="col s10 offset-s1">
+            <p>Please run the game on WebGL2-compatible browser (like Chrome or Firefox).
+              <br>Mobile devices are not supported</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="webgl" style="position:absolute; left:0; right:0; top:0; bottom:0; width:100%; height:100%"></div>
+</main>
+
+<!-- Scripts -->
+<script src="index.js"></script>
+
+</body>
+</html>

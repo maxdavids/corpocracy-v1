@@ -1,0 +1,35 @@
+{
+  "name": "corpocracy",
+  "version": "1.0.0",
+  "description": "",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "postinstall": "rm -f node_modules/web3/index.d.ts",
+    "build": "webpack",
+    "dev": "webpack-dev-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/web3": "^1.0.18",
+    "copy-webpack-plugin": "^4.6.0",
+    "uglifyjs-webpack-plugin": "^2.2.0",
+    "webpack": "^4.39.3",
+    "webpack-cli": "^3.3.8",
+    "webpack-dev-server": "^3.3.1"
+  },
+  "dependencies": {
+    "bignumber.js": "^7.2.1",
+    "gl-matrix": "^3.0.0",
+    "pako": "^1.0.10",
+    "requirejs": "^2.3.6",
+    "rxjs": "^6.5.1",
+    "rxjs-compat": "^6.5.1",
+    "truffle": "^5.0.14",
+    "truffle-contract": "^4.0.14",
+    "web3": "^1.0.0-beta.54"
+  }
+}

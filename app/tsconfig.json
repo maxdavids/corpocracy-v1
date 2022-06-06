@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "allowSyntheticDefaultImports": true,
+    "module": "amd",
+    "target": "es5",
+    "sourceMap": true,
+    "lib": ["ES2015", "ES2017.SharedMemory", "DOM"]
+  },
+  "include": [
+    "src/**/*"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
